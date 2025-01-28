@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEZ</title>
+  <style>
+    /* Genel stil */
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background-color: red;
+    }
+
+    nav a {
+      font-size: 1.5rem;
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: black;
+    }
+
+    /* Başlık */
+    .title {
+      font-size: 2.5rem;
+      color: red;
+      font-style: italic;
+      margin: 1rem;
+      text-align: center;
+    }
+
+    /* İçerik */
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 1rem;
+      padding: 1rem;
+      align-items: center;
+    }
+
+    .content img {
+      max-width: 100%;
+      height: 380px;
+      border-radius: 10px;
+      width:380px ;
+    }
+
+    .expla_in {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: red;
+      color: white;
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* Responsive Tasarım */
+    @media (max-width: 768px) {
+      nav {
+        grid-template-columns: 1fr;
+      }
+
+      nav a {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+      }
+
+      .content {
+        grid-template-columns: 1fr;
+      }
+
+      .title {
+        font-size: 2rem;
+      }
+
+      footer {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><a href="https://education.nationalgeographic.org/resource/waterfall/">Waterfall</a></div>
+    <div><a href="https://www.fortworthtexas.gov/departments/water/sdw/water-made#:~:text=Atoms%20join%20together%20to%20form,one%20oxygen%20(O)%20atom.">Elements of Water</a></div>
+  </nav>
+  <div style="text-align: right;">
+
+   
+    <input type="searchbox" placeholder ="ara">
+  </div>
+
+  <p class="title">THE MATTER OF THE WATER</p>
+
+  <div class="content">
+    <p class="expla_in">
+      Water, a substance composed of the chemical elements hydrogen and oxygen and existing in gaseous, liquid, and solid states. It is one of the most plentiful and essential of compounds.
+      A tasteless and odourless liquid at room temperature, it has the important ability to dissolve many other substances.
+      Indeed, the versatility of water as a solvent is essential to living organisms.
+      Life is believed to have originated in the aqueous solutions of the world’s oceans, and living organisms depend on aqueous solutions, such as blood and digestive juices, for biological processes.
+      Water also exists on other planets and moons both within and beyond the solar system.
+      In small quantities water appears colourless, but water actually has an intrinsic blue colour caused by slight absorption of light at red wavelengths.
+      Although the molecules of water are simple in structure (H2O), the physical and chemical properties of the compound are extraordinarily complicated, and they are not typical of most substances found on Earth.
+      For example, although the sight of ice cubes floating in a glass of ice water is commonplace, such behaviour is unusual for chemical entities. For almost every other compound,
+      the solid state is denser than the liquid state; thus, the solid would sink to the bottom of the liquid. The fact that ice floats on water is exceedingly important in the natural world,
+      because the ice that forms on ponds and lakes in cold areas of the world acts as an insulating barrier that protects the aquatic life below. If ice were denser than liquid water,
+      ice forming on a pond would sink, thereby exposing more water to the cold temperature. Thus, the pond would eventually freeze throughout, killing all the life-forms present.
+      Water occurs as a liquid on the surface of Earth under normal conditions, which makes it invaluable for transportation, for recreation, and as a habitat for a myriad of plants and animals.
+      The fact that water is readily changed to a vapour (gas) allows it to be transported through the atmosphere from the oceans to inland areas where it condenses and, as rain,
+      nourishes plant and animal life. (See hydrosphere: The hydrologic cycle for a description of the cycle by which water is transferred over Earth.)
+    </p>
+    <img src="foto.jpg" alt="Water Image">
+  </div>
+
+  <footer>Bu haklar alpere aittir &#169;</footer>
+<video style="height: 600px;width: 2000px; margin-top: 0px;" src="vidyo.mp4" controls></video>
+
+</body>
+</html>
